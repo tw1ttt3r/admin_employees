@@ -18,7 +18,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "employee",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
