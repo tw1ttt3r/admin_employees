@@ -1,2 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+
+input {
+  @apply border rounded-sm;
+}
+
+button[type=submit] {
+  @apply border-[.5px] rounded-sm border-gray-300 drop-shadow-xl;
+}
+
+a {
+  @apply text-blue-500 underline text-center;
+}
