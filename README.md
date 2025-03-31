@@ -25,6 +25,18 @@ ejemplo:
 ````
 npx ng g c shared/components/error_control --inline-template --inline-style --skip-tests
 ````
+Para la generación de servicios, ocupamos las siguientes flags
+--skip-tests: no se creará el archivo spec del componente
+ejemplo:
+````
+npx ng g s services/auth --skip-tests
+````
+Para la generación de módulos, ocupamos las siguientes flags
+--routing: genera el archivo para el registro de rutas
+````
+npx ng g m dashboard/dashboard --routing
+````
+
 
 ## COMO CONTRIBUIR
 La rama `develop` es la rama principal de desarrollo, así que se debe ocupa como base para generar la rama de trabajo.
