@@ -1,7 +1,9 @@
 const ROOT = '';
-const LOGIN = 'login'
+const LOGIN = 'login';
+const DASHBOARD = 'dashboard';
 
 export {
   ROOT,
-  LOGIN
+  LOGIN,
+  DASHBOARD
 };

@@ -18,7 +18,6 @@ import { EMAIL } from '@config/regex';
         <employee-error-control [show]="isValidControl('pass')"msg="Contraseña Obligatoria" />
       </div>
       <button type="submit">Iniciar Sesión</button>
-      <a>Crear Cuenta</a>
     </form>
   `
 })

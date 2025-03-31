@@ -28,7 +28,11 @@
       "@shared/*": ["./src/app/shared/*"],
       "@config/*": ["./src/config/*"],
       "@core/*": ["./src/app/core/*"],
-      "@envs/*": ["./src/environments/*"]
+      "@envs/*": ["./src/environments/*"],
+      "@services/*": ["./src/app/services/*"],
+      "@models/*": ["./src/types/*"],
+      "@dashboard/*": ["./src/app/dashboard/*"],
+      "@dummy/*": ["./src/dummy/*"]
     }
   },
   "angularCompilerOptions": {
